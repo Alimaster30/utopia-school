@@ -37,6 +37,14 @@ Official setup references: [Render web services](https://render.com/docs/web-ser
 
 Any platform supporting a persistent Node HTTP process can use the same commands. Set `NODE_ENV=production` and the platform-assigned `PORT`; `HOST` can override the bind address. All website files are bundled under `public/`.
 
+## Deploy on Vercel
+
+Import this repository with the **Node** preset, repository root, install command `npm ci` and build command `npm run build`. Vercel detects `server.mjs` for the presentation POST routes and serves bundled assets through its CDN.
+
+`middleware.js` uses Vercel's routing helper to resolve the captured `?term=` filter pages before the CDN serves an unfiltered index. It does not change page content, browser URLs or styling. Other Node hosts continue to use the filter routing in `server.mjs`.
+
+Official references: [Node.js runtime](https://vercel.com/docs/functions/runtimes/node-js), [Routing Middleware](https://vercel.com/docs/routing-middleware/api).
+
 ## Verify
 
 ```sh
