@@ -1,0 +1,29 @@
+[
+  {
+    "file": "public/utopia-assets/baking-reel.mp4",
+    "role": "Original public UTOPIA reel",
+    "source": "https://www.facebook.com/reel/28772673692384949/",
+    "matchingInstagramPost": "https://www.instagram.com/utopia_centre_of_excellence/reel/Ddn7c9_inEM/",
+    "capturedOn": "2026-09-30",
+    "bytes": 14591868,
+    "sha256": "93c61364a01d2bb74f31f3b461e17452ba2be9e78720da1011039859c30b2186"
+  },
+  {
+    "file": "public/utopia-assets/hero-baking-wide.mp4",
+    "role": "Landscape padded background rendition; muted",
+    "source": "https://www.facebook.com/reel/28772673692384949/",
+    "matchingInstagramPost": "https://www.instagram.com/utopia_centre_of_excellence/reel/Ddn7c9_inEM/",
+    "capturedOn": "2026-09-30",
+    "bytes": 8230870,
+    "sha256": "ff00d1614353d13f5f9893d58cb4d744b8fc59fcb37f73032265a7112e148586"
+  },
+  {
+    "file": "public/utopia-assets/baking-reel-audio.mp3",
+    "role": "Audio extracted from the actual reel",
+    "source": "https://www.facebook.com/reel/28772673692384949/",
+    "matchingInstagramPost": "https://www.instagram.com/utopia_centre_of_excellence/reel/Ddn7c9_inEM/",
+    "capturedOn": "2026-09-30",
+    "bytes": 1160606,
+    "sha256": "b5e2c4f04097047eb15425ae76461fa09fdb28184ae1e2a361a0879ba0cf5d56"
+  }
+]

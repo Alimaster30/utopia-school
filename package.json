@@ -1,0 +1,17 @@
+{
+  "name": "utopia-school",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UTOPIA - School of Excellence website",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/verify.mjs",
+    "verify": "node scripts/verify.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20 <25"
+  }
+}
